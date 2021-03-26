@@ -11,13 +11,11 @@ add should return the sum of these two parameters
 
 
 function add = (num1, num2){
- num1 = 29
- num2 = 39
 
- return(num1, num2)
+ returnnum1 + num2
 }
 
-console.log(add)
+
 
 
 
@@ -28,9 +26,11 @@ Declare a function called printer
 The printer function should print to the console no return or parameter needed
 */
 
-function printer(no return, parameter needed)
+function printer(){
+  console.log();
+}
 
-console.log(printer)
+
 
 
 /*
@@ -56,19 +56,15 @@ Call the addKeys function outside its function definition and
 pass myObject as an argument.
 */
 
-var myObject = object
+var myObject = {};
 
-function addKeys(object){
+function addKeys(object){ 
+  
+ object,firstName = Kriess
+ object['lastName'] = Dukes
 
-  object = (firstName + lastName){ 
-   
-   firstName = Kriess
-   lastName = Dukes
-
-   return(firstName + lastName)
-  }
-
-  addKeys(myObject)
+ return object
 }
 
 console.log(myObject)
+console.log(addKeys(myObject)
